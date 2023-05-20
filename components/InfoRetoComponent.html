@@ -1,0 +1,1814 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Documentación de AstroRetos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+        <link rel="stylesheet" href="../styles/material.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Documentación de AstroRetos</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Escribe para buscar"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Componentes</li>
+  <li
+  >
+  InfoRetoComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>Fichero</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/info-reto/info-reto.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Descripción</h3>
+    </p>
+    <p class="comment">
+        <p>Componente que muestra un ion-card con toda las actividades que sae pueden realizar con cada uno.</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implementa</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Meta datos</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-info-reto</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./info-reto.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./info-reto.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Índice</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Propiedades</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#email" >email</a>
+                            </li>
+                            <li>
+                                <a href="#esFavorito" >esFavorito</a>
+                            </li>
+                            <li>
+                                <a href="#esRetoConseguido" >esRetoConseguido</a>
+                            </li>
+                            <li>
+                                <a href="#mensaje" >mensaje</a>
+                            </li>
+                            <li>
+                                <a href="#oculto" >oculto</a>
+                            </li>
+                            <li>
+                                <a href="#reto" >reto</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Métodos</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#checkRetoConseguido" >checkRetoConseguido</a>
+                            </li>
+                            <li>
+                                <a href="#checkRetoFavorito" >checkRetoFavorito</a>
+                            </li>
+                            <li>
+                                <a href="#cierreModal" >cierreModal</a>
+                            </li>
+                            <li>
+                                <a href="#compartirReto" >compartirReto</a>
+                            </li>
+                            <li>
+                                <a href="#getColorNivel" >getColorNivel</a>
+                            </li>
+                            <li>
+                                <a href="#getIconTipo" >getIconTipo</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#quitarFavorito" >quitarFavorito</a>
+                            </li>
+                            <li>
+                                <a href="#removeRetoConseguido" >removeRetoConseguido</a>
+                            </li>
+                            <li>
+                                <a href="#setFavorito" >setFavorito</a>
+                            </li>
+                            <li>
+                                <a href="#setRetoConseguido" >setRetoConseguido</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Entradas</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#retoId" >retoId</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(retoSvc: <a href="../injectables/RetoService.html" target="_self">RetoService</a>, modalCtrl: ModalController, socialSharing: SocialSharing, avisosSvc: <a href="../injectables/AvisosService.html" target="_self">AvisosService</a>, authSvc: <a href="../injectables/AuthService.html" target="_self">AuthService</a>, userSvc: <a href="../injectables/UserService.html" target="_self">UserService</a>, platform: Platform)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="47" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parámetros :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Nombre</td>
+                                                    <td>Tipo</td>
+                                                <td>Opcional</td>
+                                                    <td>Descripción</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>retoSvc</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/RetoService.html" target="_self" >RetoService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Servicio que maneja la coleccion &#39;retos&#39; de Firestore</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>modalCtrl</td>
+                                                  
+                                                        <td>
+                                                                    <code>ModalController</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Controla el modal</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>socialSharing</td>
+                                                  
+                                                        <td>
+                                                                    <code>SocialSharing</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Componente que comparte Retos por RRSS</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>avisosSvc</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AvisosService.html" target="_self" >AvisosService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Componente para mostrar avisos success/error</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>authSvc</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Componente para controlar el inicio de sesion</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>userSvc</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>platform</td>
+                                                  
+                                                        <td>
+                                                                    <code>Platform</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>Controla si abrimos la app por Navegador Web o Movil para así usar correctamente el SocialSharing</p>
+
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Entradas</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="retoId"></a>
+                        <b>retoId</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Definido en <a href="" data-line="27" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:27</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Recibe el id del Reto a través de un Input que se envia desde el Card  *</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Métodos
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkRetoConseguido"></a>
+                    <span class="name">
+                        <span ><b>checkRetoConseguido</b></span>
+                        <a href="#checkRetoConseguido"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>checkRetoConseguido(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, user: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="186"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:186</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>user</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkRetoFavorito"></a>
+                    <span class="name">
+                        <span ><b>checkRetoFavorito</b></span>
+                        <a href="#checkRetoFavorito"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>checkRetoFavorito(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, user: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="145"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:145</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>user</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cierreModal"></a>
+                    <span class="name">
+                        <span ><b>cierreModal</b></span>
+                        <a href="#cierreModal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cierreModal()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="226"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:226</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método que cierra el modal para volver al listado</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="compartirReto"></a>
+                    <span class="name">
+                        <span ><b>compartirReto</b></span>
+                        <a href="#compartirReto"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>compartirReto()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="130"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:130</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para compartir el reto en las aplicaciones disponibles en el terminal (Mail o RRSS)</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getColorNivel"></a>
+                    <span class="name">
+                        <span ><b>getColorNivel</b></span>
+                        <a href="#getColorNivel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getColorNivel(nivel: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="112"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:112</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método que asigna un color al icono dependiendo del nivel de dificultad del reto</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                    <td>Descripción</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>nivel</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Nivel de dificultad del Reto</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>Retorna el color a poner en el icono</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getIconTipo"></a>
+                    <span class="name">
+                        <span ><b>getIconTipo</b></span>
+                        <a href="#getIconTipo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getIconTipo(tipo: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="92"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:92</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método que asigna un icono dependiendo del tipo de reto pasado por parámetro</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                    <td>Descripción</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>tipo</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Tipo de reto</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>Retorna el nombre del incono de ionicons.io</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="72"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:72</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método de inicio.
+Carga el reto con un Id pasado por parámetro a través del Input.
+Lo guarda en un array de retos, pero solo el de la posición 0.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="quitarFavorito"></a>
+                    <span class="name">
+                        <span ><b>quitarFavorito</b></span>
+                        <a href="#quitarFavorito"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>quitarFavorito(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, email: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="171"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:171</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>email</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeRetoConseguido"></a>
+                    <span class="name">
+                        <span ><b>removeRetoConseguido</b></span>
+                        <a href="#removeRetoConseguido"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeRetoConseguido(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, email: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="209"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:209</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>email</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setFavorito"></a>
+                    <span class="name">
+                        <span ><b>setFavorito</b></span>
+                        <a href="#setFavorito"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setFavorito(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, user: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="160"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:160</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Método para marcar como Favorito un Reto concreto al usuario logado
+Al finalizar muestra el toast con el mensaje de success o error</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                    <td>Descripción</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>ID del reto a marcar como Favorito</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>user</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Usuario que marca el Favorito</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setRetoConseguido"></a>
+                    <span class="name">
+                        <span ><b>setRetoConseguido</b></span>
+                        <a href="#setRetoConseguido"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setRetoConseguido(retoId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, user: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Definido en <a href="" data-line="194"
+                            class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:194</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parámetros :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Tipo</td>
+                                    <td>Opcional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>retoId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>user</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Devuelve : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Propiedades
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="email"></a>
+                    <span class="name">
+                        <span ><b>email</b></span>
+                        <a href="#email"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="43" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Variable string para almacenar el email del usuario logado</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="esFavorito"></a>
+                    <span class="name">
+                        <span ><b>esFavorito</b></span>
+                        <a href="#esFavorito"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="45" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="esRetoConseguido"></a>
+                    <span class="name">
+                        <span ><b>esRetoConseguido</b></span>
+                        <a href="#esRetoConseguido"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="47" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mensaje"></a>
+                    <span class="name">
+                        <span ><b>mensaje</b></span>
+                        <a href="#mensaje"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Valor por defecto : </i><code>&#x27;Te reto!&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="39" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:39</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Mensaje standard para el botón de compartir en RRSS</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="oculto"></a>
+                    <span class="name">
+                        <span ><b>oculto</b></span>
+                        <a href="#oculto"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Valor por defecto : </i><code>150</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="35" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Esta variable sirve para mostrar una descripcion corta de 150 caracteres, y luego la completa si le damos a Mostrar más</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reto"></a>
+                    <span class="name">
+                        <span ><b>reto</b></span>
+                        <a href="#reto"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Tipo : </i>        <code><a href="../interfaces/Reto.html" target="_self" >Reto</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Definido en <a href="" data-line="31" class="link-to-prism">src/app/components/info-reto/info-reto.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Declaramos un objeto Reto para guardar la información a mostrar.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, Input, OnInit } from &#x27;@angular/core&#x27;;
+
+import { ModalController, Platform } from &#x27;@ionic/angular&#x27;;
+import { SocialSharing } from &#x27;@awesome-cordova-plugins/social-sharing/ngx&#x27;;
+
+import { Reto } from &#x27;src/app/interfaces/interfaces&#x27;;
+import { RetoService } from &#x27;src/app/services/reto.service&#x27;;
+import { AvisosService } from &#x27;src/app/services/avisos.service&#x27;;
+import { AuthService } from &#x27;src/app/services/auth.service&#x27;;
+import { UserService } from &#x27;src/app/services/user.service&#x27;;
+
+/**
+ * Componente que muestra un ion-card con toda las actividades que sae pueden realizar con cada uno.
+ */
+@Component({
+  selector: &#x27;app-info-reto&#x27;,
+  templateUrl: &#x27;./info-reto.component.html&#x27;,
+  styleUrls: [&#x27;./info-reto.component.scss&#x27;],
+})
+
+export class InfoRetoComponent implements OnInit {
+
+  /**
+   * Recibe el id del Reto a través de un Input que se envia desde el Card  * 
+   */
+  @Input() retoId: string;
+  /**
+   * Declaramos un objeto Reto para guardar la información a mostrar.
+   */
+  reto: Reto;
+  /**
+   * Esta variable sirve para mostrar una descripcion corta de 150 caracteres, y luego la completa si le damos a Mostrar más
+   */
+  oculto &#x3D; 150;
+  /**
+   * Mensaje standard para el botón de compartir en RRSS
+   */
+  mensaje: string &#x3D; &#x27;Te reto!&#x27;;
+  /** Variable string para almacenar el email del usuario logado
+   * 
+   */
+  email: string;
+
+  esFavorito: boolean;
+
+  esRetoConseguido: boolean;
+
+  /**
+   *  
+   * @param retoSvc Servicio que maneja la coleccion &#x27;retos&#x27; de Firestore
+   * @param modalCtrl Controla el modal
+   * @param socialSharing Componente que comparte Retos por RRSS
+   * @param avisosSvc Componente para mostrar avisos success/error
+   * @param authSvc Componente para controlar el inicio de sesion
+   * @param platform Controla si abrimos la app por Navegador Web o Movil para así usar correctamente el SocialSharing
+   */
+  constructor(private retoSvc: RetoService,
+    private modalCtrl: ModalController,
+    private socialSharing: SocialSharing,
+    private avisosSvc: AvisosService,
+    private authSvc: AuthService,
+    private userSvc: UserService,
+    private platform: Platform
+  ) { }
+
+  /**
+   * Método de inicio.
+   * Carga el reto con un Id pasado por parámetro a través del Input. 
+   * Lo guarda en un array de retos, pero solo el de la posición 0.
+   */
+  ngOnInit() {
+
+    this.authSvc.getUserEmail().then(email &#x3D;&gt; {
+      this.email &#x3D; email;
+
+    });
+
+    this.retoSvc.getRetosById(this.retoId).subscribe(retos &#x3D;&gt; {
+      this.reto &#x3D; retos[0];
+      this.checkRetoFavorito(this.reto.ID, this.email);
+      this.checkRetoConseguido(this.reto.ID, this.email);
+    });
+    
+  }
+
+  /**
+   * Método que asigna un icono dependiendo del tipo de reto pasado por parámetro
+   * @param tipo Tipo de reto
+   * @returns Retorna el nombre del incono de ionicons.io
+   */
+  getIconTipo(tipo: string): string {
+
+    switch (tipo) {
+      case &#x27;telescopio&#x27;:
+        return &#x27;telescope-outline&#x27;;
+      case &#x27;prismaticos&#x27;:
+        return &#x27;recording-outline&#x27;;
+      case &#x27;ocular&#x27;:
+        return &#x27;eye-outline&#x27;;
+      default:
+        return &#x27;help&#x27;;
+    }
+
+  }
+
+  /**
+   * Método que asigna un color al icono dependiendo del nivel de dificultad del reto 
+   * @param nivel Nivel de dificultad del Reto
+   * @returns Retorna el color a poner en el icono
+   */
+  getColorNivel(nivel: string): string {
+
+    switch (nivel) {
+      case &#x27;facil&#x27;:
+        return &#x27;success&#x27;;
+      case &#x27;intermedio&#x27;:
+        return &#x27;warning&#x27;;
+      case &#x27;dificil&#x27;:
+        return &#x27;danger&#x27;;
+      default:
+        return &#x27;help&#x27;;
+    }
+
+  }
+
+  /**
+   * Método para compartir el reto en las aplicaciones disponibles en el terminal (Mail o RRSS)
+   */
+  compartirReto() {
+    if (this.platform.is(&#x27;android&#x27;)) {
+      this.socialSharing.share(this.mensaje);
+    } else {
+      if (navigator.share) {
+        navigator.share({
+          text: this.mensaje,
+          url: &#x27;&#x27;
+        })
+          .then(() &#x3D;&gt; console.log(&#x27;Compartido!&#x27;))
+          .catch((error) &#x3D;&gt; console.log(&#x27;Error compartiendo&#x27;, error));
+      }
+    }
+  }
+
+  checkRetoFavorito(retoId: string, user: string) {
+
+    this.retoSvc.checkFavorito(retoId, user).subscribe(existe &#x3D;&gt; {
+      this.esFavorito &#x3D; existe;
+      console.log(this.esFavorito);
+    });
+  }
+
+
+  /**
+   * Método para marcar como Favorito un Reto concreto al usuario logado
+   * Al finalizar muestra el toast con el mensaje de success o error
+   * @param retoId ID del reto a marcar como Favorito
+   * @param user Usuario que marca el Favorito
+   */
+  setFavorito(retoId: string, user: string) {
+    try {
+
+      this.retoSvc.addFavorito(retoId, user);
+      this.avisosSvc.presentToast(&#x27;Favorito añadido&#x27;, &#x27;success&#x27;);
+
+    } catch (error) {
+      this.avisosSvc.presentToast(&#x27;Error al añadir Favorito&#x27;, &#x27;danger&#x27;);
+    }
+  }
+
+  quitarFavorito(retoId: string, email: string) {
+    try {
+
+      this.retoSvc.getFavorito(retoId, email).subscribe(fav &#x3D;&gt; {
+
+        this.retoSvc.deleteFavorito(fav[0].ID_FAV);
+      })
+
+
+      this.avisosSvc.presentToast(&#x27;Favorito eliminado correctamente&#x27;, &#x27;success&#x27;);
+    } catch (error) {
+      this.avisosSvc.presentToast(&#x27;Error al eliminar el Favorito&#x27;, &#x27;danger&#x27;);
+    }
+  }
+
+  checkRetoConseguido(retoId: string, user: string) {
+
+    this.retoSvc.checkRetoConseguido(retoId, user).subscribe(existe &#x3D;&gt; {
+      this.esRetoConseguido &#x3D; existe;
+      console.log(this.esRetoConseguido);
+    });
+  }
+
+  setRetoConseguido(retoId: string, user: string) {
+    try {
+      console.log(&#x27;vamos a conseguir el reto&#x27;);
+      this.retoSvc.addRetoConseguido(retoId, user);
+      this.avisosSvc.presentToast(&#x27;Reto conseguido&#x27;, &#x27;success&#x27;);
+      this.userSvc.getTotalPuntosByUser(this.email).subscribe(totalPuntos &#x3D;&gt; {
+
+        this.userSvc.updateUserPuntos(this.email, totalPuntos);
+      })
+
+    } catch (error) {
+      this.avisosSvc.presentToast(&#x27;Error al conseguir Reto&#x27;, &#x27;danger&#x27;);
+    }
+  }
+
+  removeRetoConseguido(retoId: string, email: string) {
+    try {
+
+      this.retoSvc.getRetoConseguido(retoId, email).subscribe(retoConseguido &#x3D;&gt; {
+
+        this.retoSvc.deleteRetoConseguido(retoConseguido[0].ID_RETO_CONSEGUIDO);
+        this.avisosSvc.presentToast(&#x27;Reto Conseguido eliminado&#x27;, &#x27;success&#x27;);
+      });
+    } catch (error) {
+      this.avisosSvc.presentToast(&#x27;Error al eliminar Reto&#x27;, &#x27;danger&#x27;);
+    }
+  }
+
+
+  /**
+   * Método que cierra el modal para volver al listado
+   */
+  cierreModal() {
+    this.modalCtrl.dismiss();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ion-header&gt;
+ 
+    &lt;ion-label class&#x3D;&quot;titulo&quot;&gt;
+      &lt;h1&gt;{{reto?.TITULO}}&lt;/h1&gt;
+    &lt;/ion-label&gt;
+ 
+&lt;/ion-header&gt;
+&lt;ion-content class&#x3D;&quot;ion-no-border&quot;&gt;
+
+  &lt;ion-item&gt;
+    &lt;ion-img [src]&#x3D;&quot;reto?.IMAGEN&quot;&gt;&lt;/ion-img&gt;
+  &lt;/ion-item&gt;
+
+  &lt;ion-grid fixed&gt;
+    &lt;ion-row&gt;
+      &lt;ion-col size&#x3D;&quot;12&quot;&gt;
+        &lt;ion-item&gt;
+          &lt;ion-icon slot&#x3D;&quot;start&quot; [name]&#x3D;&quot;getIconTipo(reto?.TIPO)&quot;&gt;&lt;/ion-icon&gt;
+          &lt;ion-label color&#x3D;&quot;primary&quot;&gt;Tipo: &lt;/ion-label&gt;
+          &lt;ion-label&gt;{{reto?.TIPO}}&lt;/ion-label&gt;
+        &lt;/ion-item&gt;
+        &lt;ion-item&gt;
+          &lt;ion-icon name&#x3D;&quot;ellipse-sharp&quot; [color]&#x3D;&quot;getColorNivel(reto?.NIVEL)&quot; slot&#x3D;&quot;start&quot;&gt;&lt;/ion-icon&gt;
+          &lt;ion-label [color]&#x3D;&quot;getColorNivel(reto?.NIVEL)&quot;&gt;Nivel: {{reto?.NIVEL}}&lt;/ion-label&gt;
+        &lt;/ion-item&gt;
+        &lt;ion-item&gt;
+          &lt;ion-icon *ngIf&#x3D;&quot;esFavorito&quot; name&#x3D;&quot;star-sharp&quot; slot&#x3D;&quot;start&quot; color&#x3D;&quot;primary&quot;
+          (click)&#x3D;&quot;quitarFavorito(reto.ID, this.email)&quot;&gt;&lt;/ion-icon&gt;
+        &lt;ion-icon *ngIf&#x3D;&quot;!esFavorito&quot; name&#x3D;&quot;star-outline&quot; slot&#x3D;&quot;start&quot; color&#x3D;&quot;primary&quot;
+          (click)&#x3D;&quot;setFavorito(reto.ID, this.email)&quot;&gt;&lt;/ion-icon&gt;
+          &lt;ion-icon name&#x3D;&quot;share-social-outline&quot; slot&#x3D;&quot;end&quot; (click)&#x3D;&quot;compartirReto()&quot; color&#x3D;&quot;primary&quot;&gt;&lt;/ion-icon&gt;
+          &lt;ion-icon *ngIf&#x3D;&quot;esRetoConseguido&quot; name&#x3D;&quot;checkmark-circle-sharp&quot; slot&#x3D;&quot;start&quot; color&#x3D;&quot;success&quot;
+          (click)&#x3D;&quot;removeRetoConseguido(reto.ID, this.email)&quot;&gt;&lt;/ion-icon&gt;
+        &lt;ion-icon *ngIf&#x3D;&quot;!esRetoConseguido&quot; name&#x3D;&quot;checkmark-circle-outline&quot; slot&#x3D;&quot;start&quot; color&#x3D;&quot;success&quot;
+          (click)&#x3D;&quot;setRetoConseguido(reto.ID, this.email)&quot;&gt;&lt;/ion-icon&gt;
+        &lt;/ion-item&gt;
+        
+      &lt;/ion-col&gt;
+     
+    &lt;/ion-row&gt;
+   
+  &lt;/ion-grid&gt;
+
+  &lt;ion-grid fixed&gt;
+    &lt;ion-row&gt;
+      &lt;ion-col size&#x3D;&quot;12&quot;&gt;
+        &lt;ion-label&gt;{{reto?.DESCRIPCION | slice: 0: oculto}}...&lt;/ion-label&gt;
+        &lt;ion-label color&#x3D;&quot;primary&quot; (click)&#x3D;&quot;oculto &#x3D; 5000&quot; *ngIf&#x3D;&quot;oculto !&#x3D;&#x3D; 5000&quot;&gt;Leer más!&lt;/ion-label&gt;
+      &lt;/ion-col&gt;
+    &lt;/ion-row&gt;
+  &lt;/ion-grid&gt;
+
+
+
+&lt;/ion-content&gt;
+
+&lt;ion-footer&gt;
+  &lt;ion-button (click)&#x3D;&quot;cierreModal()&quot; expand&#x3D;&quot;block&quot; fill&#x3D;&quot;clear&quot; shape&#x3D;&quot;round&quot;&gt;
+    Regresar
+  &lt;/ion-button&gt;
+&lt;/ion-footer&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./info-reto.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.titulo {
+    width: 100%;
+    position: absolute;
+    color: rgb(252, 163, 17);;
+    background-color: black; 
+    padding: 5px 5px 40px 5px;
+}
+
+.titulo h1{
+    position: absolute;
+    top: 28px;
+    left: 5px;
+}
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Leyenda</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Elemento Html</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Componente</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Elemento Html con directiva</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ion-header>     <ion-label class="titulo">      <h1>{{reto?.TITULO}}</h1>    </ion-label> </ion-header><ion-content class="ion-no-border">  <ion-item>    <ion-img [src]="reto?.IMAGEN"></ion-img>  </ion-item>  <ion-grid fixed>    <ion-row>      <ion-col size="12">        <ion-item>          <ion-icon slot="start" [name]="getIconTipo(reto?.TIPO)"></ion-icon>          <ion-label color="primary">Tipo: </ion-label>          <ion-label>{{reto?.TIPO}}</ion-label>        </ion-item>        <ion-item>          <ion-icon name="ellipse-sharp" [color]="getColorNivel(reto?.NIVEL)" slot="start"></ion-icon>          <ion-label [color]="getColorNivel(reto?.NIVEL)">Nivel: {{reto?.NIVEL}}</ion-label>        </ion-item>        <ion-item>          <ion-icon *ngIf="esFavorito" name="star-sharp" slot="start" color="primary"          (click)="quitarFavorito(reto.ID, this.email)"></ion-icon>        <ion-icon *ngIf="!esFavorito" name="star-outline" slot="start" color="primary"          (click)="setFavorito(reto.ID, this.email)"></ion-icon>          <ion-icon name="share-social-outline" slot="end" (click)="compartirReto()" color="primary"></ion-icon>          <ion-icon *ngIf="esRetoConseguido" name="checkmark-circle-sharp" slot="start" color="success"          (click)="removeRetoConseguido(reto.ID, this.email)"></ion-icon>        <ion-icon *ngIf="!esRetoConseguido" name="checkmark-circle-outline" slot="start" color="success"          (click)="setRetoConseguido(reto.ID, this.email)"></ion-icon>        </ion-item>              </ion-col>         </ion-row>     </ion-grid>  <ion-grid fixed>    <ion-row>      <ion-col size="12">        <ion-label>{{reto?.DESCRIPCION | slice: 0: oculto}}...</ion-label>        <ion-label color="primary" (click)="oculto = 5000" *ngIf="oculto !== 5000">Leer más!</ion-label>      </ion-col>    </ion-row>  </ion-grid></ion-content><ion-footer>  <ion-button (click)="cierreModal()" expand="block" fill="clear" shape="round">    Regresar  </ion-button></ion-footer></div>'
+    var COMPONENTS = [{'name': 'AboutPage', 'selector': 'app-about'},{'name': 'AdminPage', 'selector': 'app-admin'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'FabLoginComponent', 'selector': 'app-fab-login'},{'name': 'FavoritosPage', 'selector': 'app-favoritos'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomePage', 'selector': 'app-home'},{'name': 'InfoRetoComponent', 'selector': 'app-info-reto'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'MisRetosPage', 'selector': 'app-mis-retos'},{'name': 'NewRetoComponent', 'selector': 'app-new-reto'},{'name': 'NewsPagePage', 'selector': 'app-news-page'},{'name': 'NoticiaComponent', 'selector': 'app-noticia'},{'name': 'NoticiasComponent', 'selector': 'app-noticias'},{'name': 'PerfilPage', 'selector': 'app-perfil'},{'name': 'RankingPage', 'selector': 'app-ranking'},{'name': 'RegistroComponent', 'selector': 'app-registro'},{'name': 'RetoComponent', 'selector': 'app-reto'},{'name': 'RetosComponent', 'selector': 'app-retos'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'InfoRetoComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> comparación de resultados "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No hay resultados que coincidan "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'InfoRetoComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
